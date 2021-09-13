@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
   app: 'docker-test'
-  env: 'dockertest-env'
+  env: 'Dockertest-env'
   bucket_name: 'elasticbeanstalk-us-east-2-895135776690'
   bucket_path: 'docker-test'
   on:
